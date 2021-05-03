@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TitledInput">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="hintText" format="string" localization="suggested" />
+
+        <attr name="textColor" format="color"  />
+    </declare-styleable>
+
+</resources>

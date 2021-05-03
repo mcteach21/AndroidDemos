@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mi_charts"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/charts_txt"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/mi_drawer"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/drawer_txt"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/mi_fragments"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/fragments_txt"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/mi_notification"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/notification_txt"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mi_pdfgenerate"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/pdfgenerate_txt"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi_signature"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/signature_txt"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi_upload"
+        android:icon="@drawable/ic_action_app"
+        android:title="@string/upload_txt"
+        app:showAsAction="ifRoom" />
+</menu>
